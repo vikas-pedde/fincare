@@ -63,7 +63,7 @@ img{
 .nav-links a:hover::after{
     width:100%;
 }
-/* ===== ELITE HERO SECTION ===== */
+
 .hero{
     width:100%;
     margin-top:-4px; /* blends with navbar */
@@ -78,7 +78,7 @@ img{
     box-shadow:none;     
 }
 
-/* Glow background layer */
+
 .slider::before{
     content:"";
     position:absolute;
@@ -87,7 +87,7 @@ img{
     z-index:0;
 }
 
-/* Slides wrapper */
+
 .slides{
     display:flex;
     width:100%;
@@ -160,7 +160,6 @@ img{
     animation:float 4s ease-in-out infinite;
 }
 
-/* ===== ELITE BUTTONS ===== */
 .nav-btn{
     position:absolute;
     top:50%;
@@ -228,11 +227,11 @@ img{
     background:#ffffff;
     color:#0f172a;
 }
-/* ===== AI MIC (NEXT GEN) ===== */
+
 .ai-mic{
     position:fixed;
 
-    /* ⭐ BOTTOM CENTER POSITION */
+    
     bottom:15px;
     
     left:50%;
@@ -288,7 +287,7 @@ img{
     transform:scale(1.12);
 }
 
-/* ===== LISTENING MODE ===== */
+
 .listening .ai-ring{
     animation:spinRing 1.5s linear infinite;
 }
@@ -297,7 +296,7 @@ img{
     animation:listenPulse 1s infinite;
 }
 
-/* Dark overlay when listening */
+
 .listen-overlay{
     position:fixed;
     inset:0;
@@ -329,10 +328,10 @@ img{
     50%{ transform:scale(1.15); }
     100%{ transform:scale(1); }
 }
-/* ===== MIC CTA TEXT ===== */
+
 .mic-text{
     position:absolute;
-    bottom:-20px;                 /* ⭐ ABOVE the mic */
+    bottom:-20px;                
     left:50%;
     transform:translateX(-50%);
 

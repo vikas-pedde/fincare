@@ -57,6 +57,6 @@ mic.addEventListener("click", () => {
 
     // After 1.5s redirect (change link later)
     setTimeout(()=>{
-        window.location.href = "voice.html"; // 👈 change page name later
+        window.location.href = "voice.html"; 
     },1500);
 });
